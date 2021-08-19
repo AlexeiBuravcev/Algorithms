@@ -9,6 +9,7 @@ namespace ConsoleApp
     public static void FindPair(int[] A, int target)
     {
       // создаем пустой словарь
+      // например
       var map = new Dictionary<int, int>();
       // проходим по всему полученному массиву
       for (var i = 0; i < A.Length; i++)
