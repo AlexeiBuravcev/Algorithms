@@ -4,16 +4,16 @@ namespace ConsoleApp
 {
     public class Program
     {
-        // Naive method to find a pair in an array with a given sum
+        // Метод нахождения пары значений в массиве с заданной суммой
         public static void FindPair(int[] A, int target)
         {
-            // consider each element except the last
+            // проходим все элементы кроме последнего
             for (var i = 0; i < A.Length - 1; i++)
             {
-                // start from the i'th element until the last element
+                // проходим, начиная с i-того элемента до последнего включительно
                 for (var j = i + 1; j < A.Length; j++)
                 {
-                    // if the desired sum is found, print it
+                    // если требуемая сумма найдена, выводим результат на консоль
                     if (A[i] + A[j] == target)
                     {
                         Console.WriteLine("Pair found (" + A[i].ToString() + ", " + A[j].ToString() + ")");
@@ -21,8 +21,8 @@ namespace ConsoleApp
                     }
                 }
             }
-            // we reach here if the pair is not found
-            Console.WriteLine("Pair not found");
+            // если доходим до этого участка кода, то пара не найдена
+            Console.WriteLine("Пара не найден");
         }
 
         public static void Main(String[] args)
