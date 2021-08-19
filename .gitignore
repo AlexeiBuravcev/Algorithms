@@ -2,7 +2,18 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+<<<<<<< HEAD
 /.vs/Algorithms/v17
 /.vs/VSWorkspaceState.json
 /Sections/Array/Find pair with given sum in the array/Brute-Force/obj
+=======
+/Sections/Array/Find pair with given sum in the array/Brute-Force/obj
+/Sections/Array/Find pair with given sum in the array/Brute-Force/bin/Debug/net5.0
+/Sections/Array/Find pair with given sum in the array/Brute-Force/.vs/ConsoleApp/v17
+/.vs/Algorithms/v17
+/Sections/Array/Find pair with given sum in the array/Brute-Force/.vs/ConsoleApp/DesignTimeBuild
+/.vs/VSWorkspaceState.json
+/Sections/Array/Find pair with given sum in the array/Sorting/.vs/ConsoleApp
+/Sections/Array/Find pair with given sum in the array/Sorting/bin/Debug/net5.0
+>>>>>>> 46c364a9c7ae3442c1e2e75dc7a70d70a67b0ffc
 /Sections/Array/Find pair with given sum in the array/Sorting/obj
